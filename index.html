@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>3D Product Viewer</title>
+  <style>
+    body { margin: 0; background: #111; }
+    canvas { display: block; }
+
+    .ui {
+      position: fixed;
+      top: 15px;
+      left: 15px;
+      display: flex;
+      gap: 10px;
+    }
+
+    button {
+      padding: 8px 14px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="ui">
+    <button data-color="#ffffff">White</button>
+    <button data-color="#ff0000">Red</button>
+    <button data-color="#000000" style="color:white;background:black">Black</button>
+  </div>
+
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
