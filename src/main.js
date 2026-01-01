@@ -34,7 +34,7 @@ let product = null;
 
 const loader = new GLTFLoader();
 loader.load(
-    "public/assets/chair.glb",
+    "/chair.glb",
     (gltf) => {
         product = gltf.scene;
 
